@@ -20,8 +20,8 @@ function HomePage() {
 
   const [selectedButtonId, setSelectedButtonId] = useState(0);
   const algorButtons = [
-    { label: "LSTM", acc: "81%", id: 0 },
-    { label: "CNN", acc: "81%", id: 1 },
+    { label: "LSTM", acc: "79.5%", id: 0 },
+    { label: "CNN", acc: "76.5%", id: 1 },
   ];
 
   const handleSubmit = (event: any) => {
